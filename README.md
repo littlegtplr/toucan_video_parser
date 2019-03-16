@@ -10,7 +10,7 @@ This is a small GUI has two main functions without reencoding the video:
 To maintain synchronisation of the video after the replacement of audio (to some extent). In the codes, it reads column "delay relative to video" from the metadata of the video files (if any) and applies the offset automatically. In cases of DJI camcorder, it applies a "-0.1" offset to compensate the 3 frames delay induced by the machines.
 
 ### How does it do these tasks?
-It uses ffmpeg, mediainfo and their python variants, ffmpy, pymediainfo. tkinter is also used to illustrate the GUI. 
+It uses ffmpeg, mediainfo and their python variants, ffmpy, pymediainfo. tkinter is also used to draw the GUI. 
 
 ### How does it look?
 Well. Ugly. Sort of. I will be more than happy to see the GUI being improved.
