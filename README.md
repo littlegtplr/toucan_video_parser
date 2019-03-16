@@ -17,7 +17,7 @@ Well. Ugly. Sort of. I will be more than happy to see the GUI being improved.
 ![screenshot](https://github.com/littlegtplr/toucan_video_parser/blob/master/Screenshot%202019-03-16%20at%2002.34.00.png)
 
 ### What is the context?
-I do offline mixing for live performances recorded using camcorders and mixing desks. The main task I do is to mix the recording from the mixer and the audio tracks in the videos recorded. This little GUI is a utility I wrote for myself to handle the process related to audio tracks in videos. It's been quite handy and saved me a bunch of tedious manual work, though it's just a simple GUI. 
+I do offline mixing for live performances recorded using camcorders and mixing desks. The main task I do is to mix the recording from the mixer and the audio tracks in the videos recorded. This little GUI is a utility I wrote for myself to handle the process related to audio tracks in videos. It's been quite handy and saved me a bunch of tedious manual work, though it's just a simple GUI. Please note that the video stays untouched across the process applied by this GUI, so it saves a huge amount of time compared to doing the same edit in editing software and re-encode the video. 
 
 ### How to use it?
 Simply from left to right - 
