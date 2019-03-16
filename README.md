@@ -13,7 +13,7 @@ To maintain synchronisation of the video after the replacement of audio (to some
 It uses ffmpeg, mediainfo and their python variants, ffmpy, pymediainfo. tkinter is also used to illustrate the GUI. 
 
 ### How does it look?
-Well. Ugly. Sort of. I will be more than happy if someone can fork this project and improve the GUI.
+Well. Ugly. Sort of. I will be more than happy to see the GUI being improved.
 ![screenshot](https://github.com/littlegtplr/toucan_video_parser/blob/master/Screenshot%202019-03-16%20at%2001.47.19.png)
 
 ### What is the context?
