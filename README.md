@@ -1,5 +1,5 @@
 # toucan_video_parser
-Toucan Video Parser is a small Python GUI to extract audio from video files and replace audio in video files
+Toucan Video Parser is a small Python GUI to extract audio from video files or replace audio in video files
 
 ### What does it do?
 This is a small GUI has two main functions without reencoding the video: 
