@@ -15,7 +15,7 @@ class Example(Frame):
         self.initUI()
 
     def initUI(self):
-        self.master.title("Taiwan Number One!")
+        self.master.title("Toucan Video Parser")
         self.pack(fill=BOTH, expand=True)
 
         # video part (left)
@@ -74,7 +74,7 @@ class Example(Frame):
 
 
     def about(selfs):
-        mbox.showinfo("About", "BTW, Taiwan Number One!")
+        mbox.showinfo("About", "Toucan Video Parser")
 
     def addvideo(self):
         # ftypes = [('MTS files', '*.mts'), ('MP4 files', '*.mp4'), ('All files', '*')]
