@@ -2,22 +2,22 @@
 Toucan Video Parser is a small Python GUI to extract audio from video files and replace audio in video files
 
 ### What does it do?
-This is a small GUI has two main functions without reencode the video: 
-1. to take out the audio tracks from any given video files, to a designated folder
+This is a small GUI has two main functions without reencoding the video: 
+1. to take out the audio tracks from any given video files to a designated folder
 2. replace audio tracks in any given video files, using .wav files in a designated folder
 
 ### What else does it do?
-To maintain synchronisation of the video after the replacement of audio (to some extent). In the codes it reads column "delay relative to video" from the metadata of the video files (if any) and applies the offset automatically. In cases of DJI camcoder, it applies a "-0.1" offset to compensate the 3 frames delay of audio induced by the machines.
+To maintain synchronisation of the video after the replacement of audio (to some extent). In the codes, it reads column "delay relative to video" from the metadata of the video files (if any) and applies the offset automatically. In cases of DJI camcorder, it applies a "-0.1" offset to compensate the 3 frames delay induced by the machines.
 
 ### How does it do these tasks?
 It uses ffmpeg, mediainfo and their python variants, ffmpy, pymediainfo. tkinter is also used to illustrate the GUI. 
 
 ### How does it look?
-Well. Ugly. Sort of. I will be more than happy if someone can fork this project and improve the the GUI.
+Well. Ugly. Sort of. I will be more than happy if someone can fork this project and improve the GUI.
 ![screenshot](https://github.com/littlegtplr/toucan_video_parser/blob/master/Screenshot%202019-03-16%20at%2001.47.19.png)
 
 ### What is the context?
-I do offline mixing for live performance recorded using camcoders and mixing desks. The main task I do is to mix the recording from the mixer and the audio tracks in the videos recorded. This little GUI is a utility I wrote for myself to handle the process related to audio tracks in videos. It's been quite handy and saved me a bunch of tedious manual work, though it's just a simple GUI. 
+I do offline mixing for live performances recorded using camcorders and mixing desks. The main task I do is to mix the recording from the mixer and the audio tracks in the videos recorded. This little GUI is a utility I wrote for myself to handle the process related to audio tracks in videos. It's been quite handy and saved me a bunch of tedious manual work, though it's just a simple GUI. 
 
 ### How to use it?
 Simply from left to right - 
